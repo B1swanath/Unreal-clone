@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>unrealengine.com</title>
+    <link rel="icon" href="img/UNREALE-LOGO.png"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!-- --------- Navbar --------- -->
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid nav">
+
+            <div class="dropdown text-end mx-4">
+                <a href="#" class="d-block link-body-emphasis text-decoration-none dropdown-toggle"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="img/EPIC-LOGO.png" alt="mdo" width="35" height="35" class="rounded-circle">
+                </a>
+                <ul class="dropdown-menu text-small text-bg-dark">
+                    <li><a class="dropdown-item text-bg-dark" href="#">Play</a></li>
+                    <li><a class="dropdown-item text-bg-dark" href="#">Fortnite</a></li>
+                    <li><a class="dropdown-item text-bg-dark" href="#">Rocket League</a></li>
+                    <li><a class="dropdown-item text-bg-dark" href="#">Fall Guys</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item text-bg-dark" href="#">Discover</a></li>
+                    <li><a class="dropdown-item text-bg-dark" href="#">Epic Games Store</a></li>
+                    <li><a class="dropdown-item text-bg-dark" href="#">Fab</a></li>
+                    <li><a class="dropdown-item text-bg-dark" href="#">SketchFab</a></li>
+                    <li><a class="dropdown-item text-bg-dark" href="#">ArtStation</a></li>
+                </ul>
+            </div>
+
+            <a class="navbar-logo" href="index.html"><img src="img/UNREALE-LOGO.png" alt="E" width="35" height="35"></a>
+            <a class="navbar-brand" href="#">UNREAL ENGINE</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <button class="btn btn-dark dropdown-toggle mx-3" data-bs-toggle="dropdown"
+                            aria-expanded="false">Overview</button>
+                        <ul class="dropdown-menu dropdown-menu-dark">
+                            <li><a class="dropdown-item" href="#">Unreal Engine</a></li>
+                            <li><a class="dropdown-item" href="#">Features</a></li>
+                            <li><a class="dropdown-item" href="#">Licensing</a></li>
+                            <li><a class="dropdown-item" href="#">FAQ</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <button class="btn btn-dark dropdown-toggle mx-3" data-bs-toggle="dropdown"
+                            aria-expanded="false">Uses</button>
+                        <ul class="dropdown-menu dropdown-menu-dark">
+                            <li><a class="dropdown-item" href="#">Switching to Unreal Engine</a></li>
+                            <li><a class="dropdown-item" href="#">AAA games</a></li>
+                            <li><a class="dropdown-item" href="#">Indie games</a></li>
+                            <li><a class="dropdown-item" href="#">Mobile games</a></li>
+                            <li><a class="dropdown-item" href="#">Unreal Editor for Fortnite </a></li>
+                            <li><a class="dropdown-item" href="#">Film & TV</a></li>
+                            <li><a class="dropdown-item" href="#">Broadcast & live events</a></li>
+                            <li><a class="dropdown-item" href="#">Animation</a></li>
+                            <li><a class="dropdown-item" href="#">Architecture</a></li>
+                            <li><a class="dropdown-item" href="#">Automotive</a></li>
+                            <li><a class="dropdown-item" href="#">Simulation</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#" class="nav-link px-2 text-white mx-3">News</a></li>
+                    <li><a href="#" class="nav-link px-2 text-white mx-3">Forums</a></li>
+                    <li class="nav-item dropdown">
+                        <button class="btn btn-dark dropdown-toggle mx-3" data-bs-toggle="dropdown"
+                            aria-expanded="false">More</button>
+                        <ul class="dropdown-menu dropdown-menu-dark">
+                            <li><a class="dropdown-item" href="#">Documentation</a></li>
+                            <li><a class="dropdown-item" href="#">Features</a></li>
+                            <li><a class="dropdown-item" href="#">Licensing</a></li>
+                            <li><a class="dropdown-item" href="#">Marketplace</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+                <input type="search" class="form-control form-control-dark text-bg-dark text-white" placeholder="Search"
+                    aria-label="Search">
+            </form>
+
+            <div class="dropdown text-end mx-2">
+                <a href="#" class="d-block link-body-emphasis text-decoration-none dropdown-toggle"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="img/globle-icon.jpg" alt="mdo" width="35" height="35" class="rounded-circle">
+                </a>
+                <ul class="dropdown-menu text-small text-bg-dark">
+                    <li><a class="dropdown-item text-bg-dark" href="#">English</a></li>
+                    <li><a class="dropdown-item text-bg-dark" href="#">Hindi</a></li>
+                </ul>
+            </div>
+
+            <div class="text-end tx-part">
+                <a class="signin" href="sign.html"><button type="button" class="btn btn-secondary mx-1">Sign in</button></a>
+                <button type="button" class="btn btn-info mx-3">Download</button>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <!-- ----- Hero-Content ----- -->
+
+
+    <div class="container-fluid my-5 mymain">
+        <div class="myvid px-5" style="text-align: right;">
+            <video class="object-fit-contain" width="1046" height="588.38" controls autoplay loop>
+                <source src="video/unreal.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="row hero-txt">
+            <div class="col-sm-8 p-5">
+                <h3><img src="img/UNREALE-LOGO.png" alt="unrealEngine-logo" width="35" height="35">UNREAL ENGINE</h3>
+                <h2>We make the engine.</h2>
+                <h2 class="h2-last">You make it Unreal.</h2>
+                <span><p>Unreal Engine is built by developers, for developers, with fair terms for all. <br>
+                  Because everyone with an idea deserves to use the world’s most open, advanced real-time creation tool to bring it to life.</p></span> 
+                <button class="btn btn-info me-2 p-2 px-3">Get Unreal</button>
+                <button class="btn btn-outline-secondary p-2 px-3">Learn about licensing</button>
+            </div>
+            <div class="col-sm-4"></div>
+        </div>
+    </div>
+
+    <!-- ------ content-1 ------ -->
+
+    <div class="container-fluid p-5 my-5 content-1" id="hanging-icons">
+        <h2>News</h2>
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+          <div class="col d-flex align-items-start">
+            <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 news-img-1">
+              <img src="img/unreal-5-5.jpeg" alt="unreal-5.5" width="150" height="180"/>
+            </div>
+            <div class="news-info-1 p-3">
+              <h3 class="fs-6">Unreal Engine 5.5 is now available</h3>
+              <p>Find out what's new and download the update today.</p>
+              <a href="#" class="btn btn-secondary">News</a>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 news-img-2">
+                <img src="img/unreal-fab.webp" alt="unreal-fab" width="150" height="180"/>
+            </div>
+            <div class="news-info-2 p-3">
+              <h3 class="fs-6">Fab, Epic's new unified content marketplace,..</h3>
+              <p>Today, Epic launches Fab, a one-stop destination where you can..</p>
+              <a href="#" class="btn btn-secondary">News</a>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 news-img-3">
+                <img src="img/Unreal_Fest-1.jpg" alt="unreal-fest" width="150" height="180"/>
+            </div>
+            <div class="news-info-3 p-3">
+              <h3 class="fs-6">Catch up on the big news from Unreal Fest Seattle 2024</h3>
+              <p>Dive into Epic Games announcements from Unreal Fest..</p>
+              <a href="#" class="btn btn-secondary">News</a>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <!-- Content-2 -->
+
+    <div class="container-fluid col-xxl-12 p-5 my-5 content-2">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img src="img/cyberpunk-street-environment.webp" class="d-block mx-lg-auto " alt="Bootstrap Themes" width="745" height="420">
+          </div>
+          <div class="col-lg-6 C2-info">
+            <h5>Unreal Engine Features</h5>
+            <h1 class="display-5 fw-bold lh-1 mb-3">Power that can keep up with the wildest imaginations.</h1>
+            <p class="lead">Define rule-breaking physics, create lifelike characters, or animate the movement of a single blade of grass—and render it all at the speed you can dream it. We originally designed Unreal Engine to give us the creative freedom we always wanted as developers. Today, our goal is to push the boundaries of innovation with every release so that only you, not your tools, get to decide the limits of what’s possible.</p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <button type="button" class="btn btn-info btn-lg px-4 me-md-2">See all features</button>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <!-- Content-3 -->
+
+    <div class="container-fluid col-xxl-12 p-5 my-5 content-3">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-lg-12">
+            <h1 class="display-5 fw-bold lh-1 mb-3">Ships fully loaded for everyone.</h1>
+            <p class="lead">Develop games. Produce or animate films. Visualize spaces or products. Create next-generation interfaces. Or build immersive experiences we haven’t even thought of yet. No matter what style, industry, screen size, or project you have in mind, Unreal Engine comes standard with everything you need to help you make it real. </p>
+          </div>
+        </div>
+
+        <!-- IMAGE CONTENT -->
+
+        <div class="album py-2">
+            <div class="container-fluid">
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-3">
+                    <div class="col">
+                        <div class="card-1">
+                          <img src="img/Games.webp" alt="Games" height="225" width="100%" >
+                          <title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Games</text>
+                        </div>
+                      </div>
+                      
+                      <div class="col">
+                        <div class="card-2">
+                          <img src="img/Indie games.webp" alt="Games" height="225" width="100%" >
+                          <title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Indie Games</text>
+                        </div>
+                      </div>
+          
+                      <div class="col">
+                        <div class="card-3">
+                          <img src="img/Mobile games.webp" alt="Games" height="225" width="100%" >
+                          <title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Mobile Games</text>
+                        </div>
+                      </div>
+              
+                      <div class="col">
+                        <div class="card-4">
+                          <img src="img/Switching to Unreal Engine.webp" alt="Games" height="250" width="100%" >
+                          <title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Switching to Unreal Engine</text>
+                        </div>
+                      </div>
+          
+                      <div class="col">
+                        <div class="card-5">
+                          <img src="img/Unreal Editor for Fortnite.webp" alt="Games" height="225" width="100%" >
+                          <title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Unreal Editor for Fortnite</text>
+                        </div>
+                      </div>
+          
+                      <div class="col">
+                        <div class="card-6">
+                          <img src="img/Film & TV.webp" alt="Games" height="225" width="100%" >
+                          <title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Film & TV</text>
+                        </div>
+                      </div>
+              
+                      <div class="col">
+                        <div class="card-7">
+                          <img src="img/Broadcast & live events.webp" alt="Games" height="225" width="100%" >
+                          <title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Broadcast & live events</text>
+                        </div>
+                      </div>
+          
+                      <div class="col">
+                        <div class="card-8">
+                          <img src="img/Animation.webp" alt="Games" height="225" width="100%" >
+                          <title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Animation</text>
+                        </div>
+                      </div>
+          
+                      <div class="col">
+                        <div class="card-9">
+                          <img src="img/architecture_thumbnail.webp" alt="Games" height="225" width="100%" >
+                          <title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Architecture</text>
+                        </div>
+                      </div>
+          
+                      <div class="col">
+                        <div class="card-10">
+                          <img src="img/automotive_thumbnail.webp" alt="Games" height="225" width="100%" >
+                          <title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Automotive</text>
+                        </div>
+                      </div>
+          
+                      <div class="col">
+                        <div class="card-11">
+                          <img src="img/simulation_thumbnail.webp" alt="Games" height="225" width="100%" >
+                          <title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Simulation</text>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- ----- FOOTER ----- -->
+    
+    <div class="container-fluid mt-5 footer-0">
+        <footer class="py-5">
+          <div class="d-flex flex-column flex-sm-row justify-content-between p-4 border-bottom">
+            <a class="navbar-logo" href="index.html"><img src="img/UNREALE-LOGO.png" alt="E" width="45" height="45">UNREAL ENGINE</a>
+          </div>
+
+          <div class="row footer-info p-5">
+
+            <div class="col-6 col-md-2 mb-3">
+              <h5 class="fs-2">Games</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 fs-6">Fortnite</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 fs-6">Fall Guys</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 fs-6">Rocket League</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 fs-6">Unreal Tournament</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 fs-6">Infinity Blade</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 fs-6">Shadow Complex</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 fs-6">Robo Recall</a></li>
+              </ul>
+            </div>
+      
+            <div class="col-6 col-md-2 mb-3">
+              <h5 class="fs-2">Marketplaces</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 fs-6">Epic Games Store</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 fs-6">Fab</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 fs-6">Sketchfab</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 fs-6">AetStation</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 fs-6">Store Refund Policy</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 fs-6">Store EULA</a></li>
+              </ul>
+            </div>
+      
+            <div class="col-6 col-md-2 mb-3">
+              <h5 class="fs-2">Tools</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 fs-6">Unreal Engine</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 fs-6">UEFN</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 fs-6">MetaHuman</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 fs-6">Twinmotion</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 fs-6">Megascans</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 fs-6">RealityScan</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 fs-6">Rad Game Tools</a></li>
+              </ul>
+            </div>
+      
+            <div class="col-6 col-md-2 mb-3">
+              <h5 class="fs-2">Online Services</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 fs-6">Epic Online Services</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 fs-6">Kids Web Services</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 fs-6">Services Agreement</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 fs-6">Acceptable Use Policy</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 fs-6">Trust Statement</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 fs-6">Subprocessor List</a></li>
+              </ul>
+            </div>
+      
+            <div class="col-6 col-md-2 mb-3">
+              <h5 class="fs-2">Company</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 fs-6">About</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 fs-6">Newsroom</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 fs-6">Careers</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 fs-6">Students</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 fs-6">UX Research</a></li>
+              </ul>
+            </div>
+      
+            <div class="col-6 col-md-2 mb-3">
+              <h5 class="fs-2">Resources</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 fs-6">Dev Community</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 fs-6">MegaGrants</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 fs-6">Support-A-Creator</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 fs-6">Creator Agreement</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 fs-6">Distribute on Epic Games</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 fs-6">Unreal Engine Branding Guidelines</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 fs-6">Fan Art Policy</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 fs-6">Community Rules</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 fs-6">EU Digital Services Act Inquiries</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 fs-6">Epic Direct Support</a></li>
+              </ul>
+            </div>
+          </div>
+      
+          <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+            <p>© 2024 Company, Inc. All rights reserved. Unreal and its logo are Epic’s trademarks or registered trademarks in the US and elsewhere.</p>
+            <ul class="list-unstyled d-flex">
+              <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+              <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+              <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+            </ul>
+          </div>
+        </footer>
+    </div>
+
+</body>
+
+</html>
+
+
+
+
+

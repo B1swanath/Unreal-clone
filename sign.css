@@ -1,0 +1,55 @@
+body{
+    background-color: #101014;
+}
+
+#main{
+    color: white;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+}
+
+.sign-info{
+    background-color: #202020;
+    border-radius: 5px;
+    padding: 50px;
+    padding-top: 40px;
+    text-align: center;
+}
+
+#main .sign-info form input{
+    background-color: #202020;
+    padding-left: 10px; 
+    height: 50px;
+    width: 250px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+#main .sign-info .button button{
+    color: aliceblue;
+    font-size: 10px;
+    font-weight: bolder;
+    background-color: #145c8f;
+    height: 50px;
+    width: 260px;  
+    border: 0px;
+    border-radius: 5px;
+}
+
+#main .sign-info .pwd{
+    color: white;
+}
+
+#main .sign-info .a-icon{
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+}
+
+
+
