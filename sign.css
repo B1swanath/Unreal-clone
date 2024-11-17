@@ -39,6 +39,10 @@ body{
     border-radius: 5px;
 }
 
+#main .sign-info form input{
+    color: white;
+}
+
 #main .sign-info .pwd{
     color: white;
 }

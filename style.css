@@ -43,7 +43,7 @@ body{
 }
 
 .hero-txt h2{
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 900;
     font-style: sans-serif;
 }
@@ -59,7 +59,7 @@ body{
 }
 
 .hero-txt h3{
-    font-size: 22px;
+    font-size: 28px;
     margin-bottom: 30px;
 }
 
@@ -104,6 +104,10 @@ body{
 }
 
 /* IMAGE-CONTENT */
+
+.content-3 img{
+    border-radius: 25px;
+}
 
 .content-3 .card-1 .img-title{
     position: relative;
