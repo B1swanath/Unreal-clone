@@ -107,7 +107,7 @@
                 </ul>
             </div>
 
-            <div class="text-end tx-part">
+            <div class="text-end">
                 <a class="signin" href="sign.html"><button type="button" class="btn btn-secondary mx-1">Sign in</button></a>
                 <button type="button" class="btn btn-info mx-3">Download</button>
             </div>
@@ -119,25 +119,46 @@
     <!-- ----- Hero-Content ----- -->
 
 
-    <div class="container-fluid my-5 mymain">
-        <div class="myvid px-5" style="text-align: right;">
-            <video class="object-fit-contain" width="1046" height="588.38" controls autoplay loop>
-                <source src="video/unreal.mp4" type="video/mp4">
-            </video>
+
+    <div class="container-fluid col-xxl-12 p-5 my-5 mymain">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5 myvid">
+        <div class="col-10 col-sm-8 col-lg-8">
+          <video class="object-fit-contain" width="1046" height="588.38" controls autoplay loop>
+            <source src="video/unreal.mp4" type="video/mp4">
+          </video>
         </div>
-        <div class="row hero-txt">
-            <div class="col-sm-8 p-5">
-                <h3><img src="img/UNREALE-LOGO.png" alt="unrealEngine-logo" width="35" height="35">UNREAL ENGINE</h3>
-                <h2>We make the engine.</h2>
-                <h2 class="h2-last">You make it Unreal.</h2>
-                <span><p>Unreal Engine is built by developers, for developers, with fair terms for all. <br>
-                  Because everyone with an idea deserves to use the world’s most open, advanced real-time creation tool to bring it to life.</p></span> 
-                <button class="btn btn-info me-2 p-2 px-3">Get Unreal</button>
-                <button class="btn btn-outline-secondary p-2 px-3">Learn about licensing</button>
-            </div>
-            <div class="col-sm-4"></div>
+        <div class="col-lg-4 hero-txt">
+          <h3><img src="img/UNREALE-LOGO.png" alt="unrealEngine-logo" width="35" height="35">UNREAL ENGINE</h3>
+          <h2>We make the engine.</h2>
+          <h2 class="h2-last">You make it Unreal.</h2>
+          <span><p>Unreal Engine is built by developers, for developers, with fair terms for all.Because everyone with an idea deserves to use the world’s most open, advanced real-time creation tool to bring it to life.</p></span> 
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <button class="btn btn-info me-2 p-2 px-3">Get Unreal</button>
+            <button class="btn btn-outline-secondary p-2 px-3">Learn about licensing</button>
+          </div>
         </div>
+      </div>
     </div>
+
+    <!-- <div class="container-fluid my-5 mymain">
+      <div class="myvid px-5" style="text-align: right;">
+        <video class="object-fit-contain" width="1046" height="588.38" controls autoplay loop>
+          <source src="video/unreal.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="row hero-txt">
+        <div class="col-sm-8 p-5">
+          <h3><img src="img/UNREALE-LOGO.png" alt="unrealEngine-logo" width="35" height="35">UNREAL ENGINE</h3>
+          <h2>We make the engine.</h2>
+          <h2 class="h2-last">You make it Unreal.</h2>
+          <span><p>Unreal Engine is built by developers, for developers, with fair terms for all. <br>
+              Because everyone with an idea deserves to use the world’s most open, advanced real-time creation tool to bring it to life.</p></span> 
+          <button class="btn btn-info me-2 p-2 px-3">Get Unreal</button>
+          <button class="btn btn-outline-secondary p-2 px-3">Learn about licensing</button>
+        </div>
+        <div class="col-sm-4"></div>
+      </div>
+    </div> -->
 
     <!-- ------ content-1 ------ -->
 
@@ -180,7 +201,7 @@
     <!-- Content-2 -->
 
     <div class="container-fluid col-xxl-12 p-5 my-5 content-2">
-        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5 C2-img">
           <div class="col-10 col-sm-8 col-lg-6">
             <img src="img/cyberpunk-street-environment.webp" class="d-block mx-lg-auto " alt="Bootstrap Themes" width="745" height="420">
           </div>
@@ -213,77 +234,87 @@
                     <div class="col">
                         <div class="card-1">
                           <img src="img/Games.webp" alt="Games" height="225" width="100%" >
-                          <title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Games</text>
+                          <h2 class="img-title">Games</h2>
                         </div>
                       </div>
                       
                       <div class="col">
                         <div class="card-2">
                           <img src="img/Indie games.webp" alt="Games" height="225" width="100%" >
-                          <title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Indie Games</text>
+                          <h2 class="img-title">Indie Games</h2>
+                          <!-- <title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Indie Games</text> -->
                         </div>
                       </div>
           
                       <div class="col">
                         <div class="card-3">
                           <img src="img/Mobile games.webp" alt="Games" height="225" width="100%" >
-                          <title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Mobile Games</text>
+                          <h2 class="img-title">Mobile Games</h2>
+                          <!-- <title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Mobile Games</text> -->
                         </div>
                       </div>
               
                       <div class="col">
                         <div class="card-4">
                           <img src="img/Switching to Unreal Engine.webp" alt="Games" height="225" width="100%" >
-                          <title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Switching to Unreal Engine</text>
+                          <h2 class="img-title">Switching to Unreal Engine</h2>
+                          <!-- <title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Switching to Unreal Engine</text> -->
                         </div>
                       </div>
           
                       <div class="col">
                         <div class="card-5">
                           <img src="img/Unreal Editor for Fortnite.webp" alt="Games" height="225" width="100%" >
-                          <title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Unreal Editor for Fortnite</text>
+                          <h2 class="img-title">Unreal Editor for Fortnite</h2>
+                          <!-- <title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Unreal Editor for Fortnite</text> -->
                         </div>
                       </div>
           
                       <div class="col">
                         <div class="card-6">
                           <img src="img/Film & TV.webp" alt="Games" height="225" width="100%" >
-                          <title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Film & TV</text>
+                          <h2 class="img-title">Film & TV</h2>
+                          <!-- <title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Film & TV</text> -->
                         </div>
                       </div>
               
                       <div class="col">
                         <div class="card-7">
                           <img src="img/Broadcast & live events.webp" alt="Games" height="225" width="100%" >
-                          <title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Broadcast & live events</text>
+                          <h2 class="img-title">Broadcast & live events</h2>
+                          <!-- <title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Broadcast & live events</text> -->
                         </div>
                       </div>
           
                       <div class="col">
                         <div class="card-8">
                           <img src="img/Animation.webp" alt="Games" height="225" width="100%" >
-                          <title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Animation</text>
+                          <h2 class="img-title">Animation</h2>
+                          <!-- <title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Animation</text> -->
                         </div>
                       </div>
           
                       <div class="col">
                         <div class="card-9">
                           <img src="img/architecture_thumbnail.webp" alt="Games" height="225" width="100%" >
-                          <title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Architecture</text>
+                          <h2 class="img-title">Architecture</h2>
+                          <!-- <title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Architecture</text> -->
                         </div>
                       </div>
           
                       <div class="col">
                         <div class="card-10">
                           <img src="img/automotive_thumbnail.webp" alt="Games" height="225" width="100%" >
-                          <title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Automotive</text>
+                          <h2 class="img-title">Automotive</h2>
+                          <!-- <title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Automotive</text> -->
                         </div>
                       </div>
           
                       <div class="col">
                         <div class="card-11">
                           <img src="img/simulation_thumbnail.webp" alt="Games" height="225" width="100%" >
-                          <title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Simulation</text>
+                          <h2 class="img-title">Simulation</h2>
+                          <!-- <title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Simulation</text> -->
                         </div>
                     </div>
                 </div>

@@ -33,17 +33,12 @@ body{
 
 /* Hero-Content */
 
-
-.mymain{
-    position: relative;
-    padding-top: 90px;
-    padding-bottom: 90px;
+.mymain video{
+    border-radius: 25px;
+    max-width: 100%;
 }
 
 .hero-txt{
-    position: absolute;
-    top: 0;
-    margin-top: 10%;    
     color: white;
 }
 
@@ -97,6 +92,11 @@ body{
     color: white;
 }
 
+.content-2 .C2-img img{
+    border-radius: 25px;
+    max-width: 100%;
+}
+
 /* content-3 */
 
 .content-3{
@@ -105,6 +105,61 @@ body{
 
 /* IMAGE-CONTENT */
 
+.content-3 .card-1 .img-title{
+    position: relative;
+    bottom: 50px;
+    left: 25px;
+}
+.content-3 .card-2 .img-title{
+    position: relative;
+    bottom: 50px;
+    left: 25px;
+}
+.content-3 .card-3 .img-title{
+    position: relative;
+    bottom: 50px;
+    left: 25px;
+}
+.content-3 .card-4 .img-title{
+    position: relative;
+    bottom: 50px;
+    left: 0px;
+}
+.content-3 .card-5 .img-title{
+    position: relative;
+    bottom: 50px;
+    left: 0px;
+}
+.content-3 .card-6 .img-title{
+    position: relative;
+    bottom: 50px;
+    left: 25px;
+}
+.content-3 .card-7 .img-title{
+    position: relative;
+    bottom: 50px;
+    left: 0px;
+}
+.content-3 .card-8 .img-title{
+    position: relative;
+    bottom: 50px;
+    left: 25px;
+}
+.content-3 .card-9 .img-title{
+    position: relative;
+    bottom: 50px;
+    left: 25px;
+}
+.content-3 .card-10 .img-title{
+    position: relative;
+    bottom: 50px;
+    left: 25px;
+}
+.content-3 .card-11 .img-title{
+    position: relative;
+    bottom: 50px;
+    left: 25px;
+}
 /* FOOTER */
 
 .footer-0{
